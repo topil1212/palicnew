@@ -1,0 +1,19 @@
+{
+  "name": "palic-v2",
+  "version": "2.0.0",
+  "description": "Palic v2: bot trading memecoin Solana dengan strategi S1.",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning index.js",
+    "test": "node --disable-warning=ExperimentalWarning --test --test-force-exit --test-timeout=30000 tests/*.test.js"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.99.0",
+    "bs58": "^5.0.0",
+    "canvas": "^3.2.3"
+  }
+}
